@@ -25,7 +25,7 @@
     width: 100%;
     height: 100px;
     margin-bottom: 20px;
-    background-color: rgb(238, 30, 238);
+    background-color: white;
 }
 
 ul.menu li{
@@ -40,10 +40,11 @@ ul.menu li{
     background-image: url("./img/banner.jpg");
     background-position: center;  /* */
     position: relative;
+    /* background-color: white; */
 }
 
 .content-text-Mtop{
-    width: 400px;
+    width: 470px;
     height: 60px;
     position: absolute;
     left: 40px;
@@ -51,48 +52,95 @@ ul.menu li{
     color: black;
 }
 
+.main-header{    
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: white;
+    float: left; 
+}
+
 .main-down{
     padding-bottom: 10px;
     margin-bottom: 10px;
     clear: both;
     width: 100%;
-    background-color: rgb(12, 66, 226);
-}
-
-.main-header{
-    width: 100%;
-    height: 80px;
-    margin-bottom: 20px;
-    background-color: lightblue;
-    float: left; 
+    background-color: white;
 }
 
 .aside-column{
     height: 400px;
-    background-color: lightblue;
+    background-color: white;
     width: calc((50% / 2) - 10px); 
     float: left; 
 }
 
-.big-column{
+.img-column-left, .img-column-right{
+    width: 100%;
+    height: 45%;
+    /* border-radius: 1px  black 5%; */
+    /* background-position: auto; */
+    background-size: cover;
+}
+
+.img-column-left{
+background-image: url("./img/img-1.jpg");
+}
+
+.Co-left{
+    margin: 0 10px 10px 0; 
+}
+
+.img-column-right{
+    background-image: url("./img/img-3.jpg") ;
+} 
+
+.middle-column{
     float: left;
     margin-right: 10px; 
     width: 50%;
     height: 400px;
-    background-color: lightblue;
 } 
 
-.fl-left{
-    margin: 0 10px 10px 0; 
+.img-middle-column{
+    width: 100%;
+    height: 45%;
+    background-image: url("./img/banner-2.jpg");
+    background-size: cover;
+    /* background-color: rgba(236, 190, 222, 0.63); */
 }
-
-/*
-.fl-right{
-    float: left;
+/* 
+.article-l, .article-r{
+    width: 100%;
 } */
 
 .div-footer{
     width: 100%;
     height: 40px;
-    background-color: purple;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
 } 
+
+.div-footer #notes, #cuoricino{   
+    font-size: 15px;
+}
+
+#cuoricino{
+    color: red;
+}
+
+.img-column-left, .img-column-right,
+.img-middle-column{
+    background-color: lightslategrey;
+    border-radius: 5%;
+}
+
+/* {
+    color: gray;
+} */
+
+h3, h2{
+    padding-bottom: 5px 0 0 5px;
+    color: rgb(26, 23, 23)
+}
